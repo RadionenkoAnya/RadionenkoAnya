@@ -1,0 +1,42 @@
+banana * false
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const formatDate = date => new Date(date).toLocaleDateString();
+55 * true
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+64,87,54,42,44,92,60,68,52,73,5,69,38,37,11,83,52,95,12,65,70,40,12,47,64,5,69,18,88,4,59,74,80,59,41,90,17,42,30,82,99,48,50,68,61,86,42,10,79,46,7,60,66,92,18,6,87,68,16,80,96,82,63,14,12,6,65,56,21,51,32,98,38,99,50,41,44,11,66,70,5,34,48 / false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+apple * false
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+40 + apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+apple / apple
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+62,53,8,67,29,42,36,87,60,35,90,79,55,73,52,58,65,87,23,45,26,11,53,23,77,61,65,38,65,50,91,26,4 * 4,74,51,56,3,49,85,14,76
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sum = (a, b) => a + b;
+38 * false
+const capitalizeString = str => str.toUpperCase();
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+true - true
+const getRandomElement = array => array[getRandomIndex(array)];
+const randomNumber = getRandomNumber();
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
